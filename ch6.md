@@ -1,4 +1,4 @@
-1.  Create two similar, but different, text files. Try comparing them by using Diff. Run something like this: Diff -reference (Get-Content File1.txt) -difference (Get-Content File2.txt). If the files have only one line of text that�s different, the command should work.
+1.  Create two similar, but different, text files. Try comparing them by using Diff. Run something like this: Diff -reference (Get-Content File1.txt) -difference (Get-Content File2.txt). If the files have only one line of text that's different, the command should work.
 
 ```
 diff (cat .\test) (cat .\test2)
@@ -15,7 +15,7 @@ not      =>
 
 the `-name` and `-displayname` parameters can be used to stop a process without using `get-service`
 
-4.  What if you want to create a pipe-delimited file instead of a comma-separated (CSV) file? You�d still use the Export-CSV command, but what parameters would you specify? 
+4.  What if you want to create a pipe-delimited file instead of a comma-separated (CSV) file? You'd still use the Export-CSV command, but what parameters would you specify? 
 
 `-delimiter '|'`
 
@@ -29,6 +29,6 @@ the `-name` and `-displayname` parameters can be used to stop a process without 
 
 `-confirm`
 
-7.  Windows maintains several regional settings, which include a default list separator. On U.S. systems, that separator is a comma. How can you tell Export-CSV to use the system�s default separator rather than a comma?
+7.  Windows maintains several regional settings, which include a default list separator. On U.S. systems, that separator is a comma. How can you tell Export-CSV to use the system's default separator rather than a comma?
 
 `-useculture`

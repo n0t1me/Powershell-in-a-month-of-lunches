@@ -16,7 +16,7 @@ My answer:
 I get an error because the set-item is intended for use on items that are in themselves properties, like a variable or registry key, not files.
 
 Author's answer:
-The filesystem provider doesn�t support this action.)
+The filesystem provider doesn't support this action.)
 
 5.  Using the Environment provider, display the value of the system environment variable %TEMP%. 
 
@@ -28,4 +28,4 @@ My answer:
 filter applies the filter before the objects are collected, exclude removes the objects matching the filter after they are collected, and include removes non-matchin objects after the collection
 
 Author's answer:
-Filter uses the PSProvider�s filter capability, which not all providers support. You can't use it in the registry, for example)
+Filter uses the PSProvider's filter capability, which not all providers support. You can't use it in the registry, for example)
