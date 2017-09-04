@@ -1,9 +1,9 @@
 1.  Create two similar, but different, text files. Try comparing them by using Diff. Run something like this: Diff -reference (Get-Content File1.txt) -difference (Get-Content File2.txt). If the files have only one line of text that�s different, the command should work.
 
-``diff (cat .\test) (cat .\test2)
-InputObject SideIndicator
------------ -------------
-not      =>``
+    diff (cat .\test) (cat .\test2)
+    InputObject SideIndicator
+    ----------- -------------
+    not      =>
 
 2.  What happens (on Windows) if you run `Get-Service | Export-CSV services.csv | Out-File` from the console? Why does that happen? 
 
